@@ -29,7 +29,7 @@ public class Guessinggame {
             } else if (yourGuess > randomNumber) {
                 System.out.println("Please pick a LOWER number.");
             } else {
-                System.out.println("You are the Winner!");
+                System.out.println("Winner, Winner, Chicken Dinner!");
                 break;
             }
 
