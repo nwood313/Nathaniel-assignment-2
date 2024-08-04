@@ -10,7 +10,7 @@ public class Guessinggame {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int attempts = 5;
-        int randomNumber = random.nextInt(1,101) ;
+        int randomNumber = random.nextInt(1,101) ;//inclusive of the first and exclusive of the second
         int attemptsCtr = 0;
         System.out.println("Welcome to the Guessing Game! Pick a number between 1 and 100.");
         //System.out.println(randomNumber); // my way to test winning conditions
